@@ -55,7 +55,7 @@ TW-Light is derivative work from TimeWarp http://timewarp.sf.net/
 Authors
 =======
 
- * Yura Siamashka <yurand2 at gmail dot com>.
+ * Yura Siamashka yurand2 at gmail dot com.
  * Paul Forest (youBastrd)
  * Asaf Hamtzany (UAF)
  * Rick Bushie (Firehazurd)
