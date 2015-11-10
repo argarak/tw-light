@@ -18,8 +18,9 @@ please report them to the tracker.
 Compilation
 ===========
 
-To compile, run the following commands from any GNU/Linux  (or 
-possibly Mac OS) while in the repository's directory,
+To compile, run the following commands from any GNU/Linux (or 
+possibly Mac OS and any other *nix) terminal while in the 
+repository's directory,
 
 ```
 ./configure
@@ -33,6 +34,9 @@ locally in the ./src directory)
 Alternatively, you can run 'sh INSTALL' for a faster method if you would 
 like it to be installed globally.  
 
+I'm afraid I cannot provide compilation instructions for Microsoft
+Windows or any other non-*nix system.
+
 License
 =======
 
@@ -45,13 +49,13 @@ program.
 Credits
 =======
 
-Thank you to 
+Thank you to Yura Siamashka for developing the game!
 TW-Light is derivative work from TimeWarp http://timewarp.sf.net/
 
 Authors
 =======
 
- * Yura Siamashka <yurand2@gmail.com>.
+ * Yura Siamashka <yurand2 at gmail dot com>.
  * Paul Forest (youBastrd)
  * Asaf Hamtzany (UAF)
  * Rick Bushie (Firehazurd)
