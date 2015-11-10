@@ -4,16 +4,13 @@
 of TimeWarp. Main goal of this fork is a stable melee engine
 for implementing adventure games."*
 
-The main goals of this fork are:
-
-  * To have a fork of Tw-Light avaliable on Github as Google Code is becoming read-only
-  * To *"revive"* Tw-Light as development has halted
-  * To fix some frustrating performance issues caused during the game
-  * Possibly add more features to the game. (Don't expect me to add much as I have not learned C++ yet)
+Contribution
+============
 
 If you notice any issues during the game and would like to contribute, 
 please report them to the tracker.
-  
+
+If you fixed a bug or added a feature, please send a pull request.
 
 Compilation
 ===========
@@ -34,9 +31,6 @@ locally in the ./src directory)
 Alternatively, you can run 'sh INSTALL' for a faster method if you would 
 like it to be installed globally.  
 
-I'm afraid I cannot provide compilation instructions for Microsoft
-Windows or any other non-*nix system.
-
 License
 =======
 
@@ -49,7 +43,6 @@ program.
 Credits
 =======
 
-Thank you to Yura Siamashka for developing the game!
 TW-Light is derivative work from TimeWarp http://timewarp.sf.net/
 
 Authors
