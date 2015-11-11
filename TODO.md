@@ -17,5 +17,5 @@ Todo
   * [ ] Gaia (odd flashing)
 * [ ] Network support would be nice but it will probably be hard to implement. 
 * [ ] Make the GUI look nicer
- * [ ]Change font
+ * [ ] Change font
  * [ ] Add in/remove unfinished text boxes
