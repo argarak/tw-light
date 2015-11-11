@@ -6,7 +6,7 @@ for implementing adventure games."*
 
 I will send a pull request to the repository of the owner (currently empty for some reason) so that they can host it.
 
-[Repository of Yura Siamashka](https://github.com/Yurand/tw-light)
+[Repository by Yura Siamashka](https://github.com/Yurand/tw-light)
 
 Contribution
 ============
@@ -32,7 +32,7 @@ sudo make install
 (miss out `sudo make install` if you would like it to be installed 
 locally in the ./src directory)
   
-Alternatively, you can run 'sh INSTALL' for a faster method if you would 
+Alternatively, you can run `sh INSTALL` for a faster method if you would 
 like it to be installed globally.  
 
 License
