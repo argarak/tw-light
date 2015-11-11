@@ -2,8 +2,6 @@
 TW-Light Readme
 ===============
 
-.. contents::
-
 About
 =====
 
@@ -63,67 +61,56 @@ Be default these are::
 Extended Menu
 -------------
 
-Play Game
-^^^^^^^^^
+###Play Game
 
 Add game descriptions here
 
-Key Tester
-^^^^^^^^^^
+###Key Tester
 
 Use this utility to check keys combination for conflicts.
 
-Ship Info
-^^^^^^^^^
+###Ship Info
 
 Here you can get detail information about every ship in the game.
 
-Diagnostic
-^^^^^^^^^^
+###Diagnostic
 
 show comlile options and version information.
 
-Main Menu
-^^^^^^^^^
+###Main Menu
 
 This returns to the main menu.
 
 Teams
 -----
 
-Select Controller
-^^^^^^^^^^^^^^^^^
+###Select Controller
 
 Select the player (i.e. "Player 1" or "Player 2") you wish to alter from
 the list on the left, and the controller (i.e. "Keyboard", "MoronBot") you
 want to control that player from the list on the left.  Then either click
 on the "Select Controller" button or double click on the controller name.
 
-Change Team #
-^^^^^^^^^^^^^
+###Change Team #
 
 This switches the player allys. Note that team 0 mean no allys.
 
-Change Config #
-^^^^^^^^^^^^^^^
+###Change Config #
 
 This switches the configuration used by the currently highlighted controller.
 
-Edit Configuration
-^^^^^^^^^^^^^^^^^^
+###Edit Configuration
 
 This is used to setup up keys when the currently highlighted player is
 using the keyboard. It may eventually allow the configuration of AIs and
 calibration of joysticks.
 
-Edit Fleet
-^^^^^^^^^^
+###Edit Fleet
 
 This button brings up the fleet selection menu for the currently
 highlighted player.
 
-Main Menu
-^^^^^^^^^
+###Main Menu
 
 This returns to the main menu.
 
@@ -132,30 +119,25 @@ Options
 
 Most things on this menu are self-explanatory, but a few need special mention.
 
-Gamma correction
-^^^^^^^^^^^^^^^^
+###Gamma correction
 
 This makes things brighter during combat.  This should not be changed from
 the middle of combat, or colors could get weird.
 
-Antialiasing
-^^^^^^^^^^^^
+###Antialiasing
 
 If this box is checked then TimeWarp will use higher quality graphics, but
 run slower.
 
-Color Depth
-^^^^^^^^^^^
+###Color Depth
 
 You cannot change this from the middle of combat.
 
-Camera Mode
-^^^^^^^^^^^
+###Camera Mode
 
 This allows you to control what is shown on your screen in combat.
 
-
-"Enemy_Discrete" is just st like Star Control on the PC, where the camera
+"Enemy_Discrete" is just like Star Control on the PC, where the camera
 moved to keep both you and your enemy onscreen, and zoomed in by factors of 2.
 
 "Enemy" is like Star Control on the Genesis or 3DO, where the camera zoomed in smoothly.
