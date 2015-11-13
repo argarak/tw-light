@@ -19,3 +19,4 @@ Todo
 * [ ] Make the GUI look nicer
  * [ ] Change font
  * [ ] Add in/remove unfinished text boxes
+* [ ] Utwig ship way too OP. 
