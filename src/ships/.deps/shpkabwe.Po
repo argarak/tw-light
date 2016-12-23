@@ -1,0 +1,697 @@
+shpkabwe.o: shpkabwe.cpp /usr/include/stdc-predef.h ../ship.h \
+ ../util/port.h ../melee.h /usr/include/c++/6.2.1/stdlib.h \
+ /usr/include/c++/6.2.1/cstdlib \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/bits/select2.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/bits/stdlib.h /usr/include/c++/6.2.1/math.h \
+ /usr/include/c++/6.2.1/cmath \
+ /usr/include/c++/6.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/6.2.1/ext/type_traits.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/c++/6.2.1/list /usr/include/c++/6.2.1/bits/stl_algobase.h \
+ /usr/include/c++/6.2.1/bits/functexcept.h \
+ /usr/include/c++/6.2.1/bits/exception_defines.h \
+ /usr/include/c++/6.2.1/ext/numeric_traits.h \
+ /usr/include/c++/6.2.1/bits/stl_pair.h \
+ /usr/include/c++/6.2.1/bits/move.h \
+ /usr/include/c++/6.2.1/bits/concept_check.h \
+ /usr/include/c++/6.2.1/type_traits \
+ /usr/include/c++/6.2.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/6.2.1/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/6.2.1/debug/assertions.h \
+ /usr/include/c++/6.2.1/bits/stl_iterator.h \
+ /usr/include/c++/6.2.1/bits/ptr_traits.h \
+ /usr/include/c++/6.2.1/debug/debug.h \
+ /usr/include/c++/6.2.1/bits/predefined_ops.h \
+ /usr/include/c++/6.2.1/bits/allocator.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/6.2.1/ext/new_allocator.h /usr/include/c++/6.2.1/new \
+ /usr/include/c++/6.2.1/exception \
+ /usr/include/c++/6.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6.2.1/bits/exception_ptr.h \
+ /usr/include/c++/6.2.1/bits/nested_exception.h \
+ /usr/include/c++/6.2.1/bits/memoryfwd.h \
+ /usr/include/c++/6.2.1/bits/range_access.h \
+ /usr/include/c++/6.2.1/initializer_list \
+ /usr/include/c++/6.2.1/bits/stl_list.h \
+ /usr/include/c++/6.2.1/ext/alloc_traits.h \
+ /usr/include/c++/6.2.1/bits/alloc_traits.h \
+ /usr/include/c++/6.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/6.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/6.2.1/bits/list.tcc /usr/include/allegro.h \
+ /usr/include/allegro/base.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stdarg.h \
+ /usr/include/bits/timex.h /usr/include/string.h \
+ /usr/include/bits/string3.h /usr/include/allegro/internal/alconfig.h \
+ /usr/include/allegro/platform/alplatf.h \
+ /usr/include/allegro/platform/alucfg.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h \
+ /usr/include/bits/fcntl2.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/bits/unistd.h /usr/include/allegro/platform/alunixac.h \
+ /usr/include/allegro/platform/astdint.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/allegro/system.h /usr/include/allegro/base.h \
+ /usr/include/allegro/unicode.h /usr/include/allegro/config.h \
+ /usr/include/allegro/inline/system.inl /usr/include/allegro/debug.h \
+ /usr/include/allegro/debug.h /usr/include/allegro/unicode.h \
+ /usr/include/allegro/mouse.h /usr/include/allegro/timer.h \
+ /usr/include/allegro/keyboard.h /usr/include/allegro/joystick.h \
+ /usr/include/allegro/palette.h /usr/include/allegro/gfx.h \
+ /usr/include/allegro/3d.h /usr/include/allegro/fixed.h \
+ /usr/include/allegro/inline/gfx.inl /usr/include/allegro/inline/asm.inl \
+ /usr/include/allegro/color.h /usr/include/allegro/palette.h \
+ /usr/include/allegro/inline/color.inl /usr/include/allegro/draw.h \
+ /usr/include/allegro/gfx.h /usr/include/allegro/inline/draw.inl \
+ /usr/include/allegro/3d.h /usr/include/allegro/inline/gfx.inl \
+ /usr/include/allegro/rle.h /usr/include/allegro/inline/rle.inl \
+ /usr/include/allegro/compiled.h /usr/include/allegro/text.h \
+ /usr/include/allegro/font.h /usr/include/allegro/fli.h \
+ /usr/include/allegro/config.h /usr/include/allegro/gui.h \
+ /usr/include/allegro/sound.h /usr/include/allegro/digi.h \
+ /usr/include/allegro/stream.h /usr/include/allegro/midi.h \
+ /usr/include/allegro/file.h /usr/include/allegro/lzss.h \
+ /usr/include/allegro/datafile.h /usr/include/allegro/fixed.h \
+ /usr/include/allegro/fmaths.h /usr/include/allegro/inline/fmaths.inl \
+ /usr/include/allegro/matrix.h /usr/include/allegro/fmaths.h \
+ /usr/include/allegro/inline/matrix.inl /usr/include/allegro/quat.h \
+ /usr/include/allegro/3d.h /usr/include/allegro/3dmaths.h \
+ /usr/include/allegro/inline/3dmaths.inl /usr/include/allegro/alcompat.h \
+ /usr/include/allegro/fix.h /usr/include/allegro/inline/fix.inl \
+ /usr/include/allegro/platform/alunix.h ../melee/mvideosystem.h \
+ /usr/include/c++/6.2.1/string /usr/include/c++/6.2.1/bits/stringfwd.h \
+ /usr/include/c++/6.2.1/bits/char_traits.h \
+ /usr/include/c++/6.2.1/bits/postypes.h /usr/include/c++/6.2.1/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h /usr/include/bits/wchar2.h \
+ /usr/include/c++/6.2.1/cstdint /usr/include/c++/6.2.1/bits/localefwd.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/6.2.1/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/6.2.1/iosfwd \
+ /usr/include/c++/6.2.1/cctype /usr/include/ctype.h \
+ /usr/include/c++/6.2.1/bits/ostream_insert.h \
+ /usr/include/c++/6.2.1/bits/cxxabi_forced.h \
+ /usr/include/c++/6.2.1/bits/stl_function.h \
+ /usr/include/c++/6.2.1/backward/binders.h \
+ /usr/include/c++/6.2.1/bits/basic_string.h \
+ /usr/include/c++/6.2.1/ext/atomicity.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h \
+ /usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/c++/6.2.1/ext/string_conversions.h \
+ /usr/include/c++/6.2.1/cstdio /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/c++/6.2.1/cerrno \
+ /usr/include/c++/6.2.1/bits/functional_hash.h \
+ /usr/include/c++/6.2.1/bits/hash_bytes.h \
+ /usr/include/c++/6.2.1/bits/basic_string.tcc ../util/port.h \
+ ../util/base.h ../util/types.h ../melee/mvideowindow.h \
+ ../melee/mvideoevent.h ../util/base.h ../util/endian.h \
+ ../util/get_time.h ../util/random.h ../util/round.h ../util/vector2.h \
+ ../util/sounds.h ../util/base.h ../util/errors.h \
+ /usr/include/c++/6.2.1/stack /usr/include/c++/6.2.1/deque \
+ /usr/include/c++/6.2.1/bits/stl_construct.h \
+ /usr/include/c++/6.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/6.2.1/bits/stl_deque.h \
+ /usr/include/c++/6.2.1/bits/deque.tcc \
+ /usr/include/c++/6.2.1/bits/stl_stack.h \
+ /usr/include/c++/6.2.1/bits/uses_allocator.h ../util/get_time.h \
+ ../input.h ../melee/mgame.h ../melee/mframe.h \
+ /usr/include/c++/6.2.1/vector /usr/include/c++/6.2.1/bits/stl_vector.h \
+ /usr/include/c++/6.2.1/bits/stl_bvector.h \
+ /usr/include/c++/6.2.1/bits/vector.tcc ../melee/mtarget.h ../melee.h \
+ ../melee/mcontrol.h ../melee/mship.h ../melee/mship.h ../melee/mshot.h \
+ ../melee/mgame.h ../melee/manim.h ../id.h ../util/helper.h \
+ ../other/gameconf.h ../melee/mview.h ../frame.h ../util/aastr.h
+
+/usr/include/stdc-predef.h:
+
+../ship.h:
+
+../util/port.h:
+
+../melee.h:
+
+/usr/include/c++/6.2.1/stdlib.h:
+
+/usr/include/c++/6.2.1/cstdlib:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/select2.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/stdlib.h:
+
+/usr/include/c++/6.2.1/math.h:
+
+/usr/include/c++/6.2.1/cmath:
+
+/usr/include/c++/6.2.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/6.2.1/ext/type_traits.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/c++/6.2.1/list:
+
+/usr/include/c++/6.2.1/bits/stl_algobase.h:
+
+/usr/include/c++/6.2.1/bits/functexcept.h:
+
+/usr/include/c++/6.2.1/bits/exception_defines.h:
+
+/usr/include/c++/6.2.1/ext/numeric_traits.h:
+
+/usr/include/c++/6.2.1/bits/stl_pair.h:
+
+/usr/include/c++/6.2.1/bits/move.h:
+
+/usr/include/c++/6.2.1/bits/concept_check.h:
+
+/usr/include/c++/6.2.1/type_traits:
+
+/usr/include/c++/6.2.1/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/6.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/6.2.1/debug/assertions.h:
+
+/usr/include/c++/6.2.1/bits/stl_iterator.h:
+
+/usr/include/c++/6.2.1/bits/ptr_traits.h:
+
+/usr/include/c++/6.2.1/debug/debug.h:
+
+/usr/include/c++/6.2.1/bits/predefined_ops.h:
+
+/usr/include/c++/6.2.1/bits/allocator.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/6.2.1/ext/new_allocator.h:
+
+/usr/include/c++/6.2.1/new:
+
+/usr/include/c++/6.2.1/exception:
+
+/usr/include/c++/6.2.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/6.2.1/bits/exception_ptr.h:
+
+/usr/include/c++/6.2.1/bits/nested_exception.h:
+
+/usr/include/c++/6.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/6.2.1/bits/range_access.h:
+
+/usr/include/c++/6.2.1/initializer_list:
+
+/usr/include/c++/6.2.1/bits/stl_list.h:
+
+/usr/include/c++/6.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/6.2.1/bits/alloc_traits.h:
+
+/usr/include/c++/6.2.1/bits/allocated_ptr.h:
+
+/usr/include/c++/6.2.1/ext/aligned_buffer.h:
+
+/usr/include/c++/6.2.1/bits/list.tcc:
+
+/usr/include/allegro.h:
+
+/usr/include/allegro/base.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stdarg.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string3.h:
+
+/usr/include/allegro/internal/alconfig.h:
+
+/usr/include/allegro/platform/alplatf.h:
+
+/usr/include/allegro/platform/alucfg.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/bits/fcntl2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/bits/unistd.h:
+
+/usr/include/allegro/platform/alunixac.h:
+
+/usr/include/allegro/platform/astdint.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/allegro/system.h:
+
+/usr/include/allegro/base.h:
+
+/usr/include/allegro/unicode.h:
+
+/usr/include/allegro/config.h:
+
+/usr/include/allegro/inline/system.inl:
+
+/usr/include/allegro/debug.h:
+
+/usr/include/allegro/debug.h:
+
+/usr/include/allegro/unicode.h:
+
+/usr/include/allegro/mouse.h:
+
+/usr/include/allegro/timer.h:
+
+/usr/include/allegro/keyboard.h:
+
+/usr/include/allegro/joystick.h:
+
+/usr/include/allegro/palette.h:
+
+/usr/include/allegro/gfx.h:
+
+/usr/include/allegro/3d.h:
+
+/usr/include/allegro/fixed.h:
+
+/usr/include/allegro/inline/gfx.inl:
+
+/usr/include/allegro/inline/asm.inl:
+
+/usr/include/allegro/color.h:
+
+/usr/include/allegro/palette.h:
+
+/usr/include/allegro/inline/color.inl:
+
+/usr/include/allegro/draw.h:
+
+/usr/include/allegro/gfx.h:
+
+/usr/include/allegro/inline/draw.inl:
+
+/usr/include/allegro/3d.h:
+
+/usr/include/allegro/inline/gfx.inl:
+
+/usr/include/allegro/rle.h:
+
+/usr/include/allegro/inline/rle.inl:
+
+/usr/include/allegro/compiled.h:
+
+/usr/include/allegro/text.h:
+
+/usr/include/allegro/font.h:
+
+/usr/include/allegro/fli.h:
+
+/usr/include/allegro/config.h:
+
+/usr/include/allegro/gui.h:
+
+/usr/include/allegro/sound.h:
+
+/usr/include/allegro/digi.h:
+
+/usr/include/allegro/stream.h:
+
+/usr/include/allegro/midi.h:
+
+/usr/include/allegro/file.h:
+
+/usr/include/allegro/lzss.h:
+
+/usr/include/allegro/datafile.h:
+
+/usr/include/allegro/fixed.h:
+
+/usr/include/allegro/fmaths.h:
+
+/usr/include/allegro/inline/fmaths.inl:
+
+/usr/include/allegro/matrix.h:
+
+/usr/include/allegro/fmaths.h:
+
+/usr/include/allegro/inline/matrix.inl:
+
+/usr/include/allegro/quat.h:
+
+/usr/include/allegro/3d.h:
+
+/usr/include/allegro/3dmaths.h:
+
+/usr/include/allegro/inline/3dmaths.inl:
+
+/usr/include/allegro/alcompat.h:
+
+/usr/include/allegro/fix.h:
+
+/usr/include/allegro/inline/fix.inl:
+
+/usr/include/allegro/platform/alunix.h:
+
+../melee/mvideosystem.h:
+
+/usr/include/c++/6.2.1/string:
+
+/usr/include/c++/6.2.1/bits/stringfwd.h:
+
+/usr/include/c++/6.2.1/bits/char_traits.h:
+
+/usr/include/c++/6.2.1/bits/postypes.h:
+
+/usr/include/c++/6.2.1/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/wchar2.h:
+
+/usr/include/c++/6.2.1/cstdint:
+
+/usr/include/c++/6.2.1/bits/localefwd.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/6.2.1/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/6.2.1/iosfwd:
+
+/usr/include/c++/6.2.1/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/6.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/6.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/6.2.1/bits/stl_function.h:
+
+/usr/include/c++/6.2.1/backward/binders.h:
+
+/usr/include/c++/6.2.1/bits/basic_string.h:
+
+/usr/include/c++/6.2.1/ext/atomicity.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/6.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/6.2.1/ext/string_conversions.h:
+
+/usr/include/c++/6.2.1/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/bits/stdio2.h:
+
+/usr/include/c++/6.2.1/cerrno:
+
+/usr/include/c++/6.2.1/bits/functional_hash.h:
+
+/usr/include/c++/6.2.1/bits/hash_bytes.h:
+
+/usr/include/c++/6.2.1/bits/basic_string.tcc:
+
+../util/port.h:
+
+../util/base.h:
+
+../util/types.h:
+
+../melee/mvideowindow.h:
+
+../melee/mvideoevent.h:
+
+../util/base.h:
+
+../util/endian.h:
+
+../util/get_time.h:
+
+../util/random.h:
+
+../util/round.h:
+
+../util/vector2.h:
+
+../util/sounds.h:
+
+../util/base.h:
+
+../util/errors.h:
+
+/usr/include/c++/6.2.1/stack:
+
+/usr/include/c++/6.2.1/deque:
+
+/usr/include/c++/6.2.1/bits/stl_construct.h:
+
+/usr/include/c++/6.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/6.2.1/bits/stl_deque.h:
+
+/usr/include/c++/6.2.1/bits/deque.tcc:
+
+/usr/include/c++/6.2.1/bits/stl_stack.h:
+
+/usr/include/c++/6.2.1/bits/uses_allocator.h:
+
+../util/get_time.h:
+
+../input.h:
+
+../melee/mgame.h:
+
+../melee/mframe.h:
+
+/usr/include/c++/6.2.1/vector:
+
+/usr/include/c++/6.2.1/bits/stl_vector.h:
+
+/usr/include/c++/6.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/6.2.1/bits/vector.tcc:
+
+../melee/mtarget.h:
+
+../melee.h:
+
+../melee/mcontrol.h:
+
+../melee/mship.h:
+
+../melee/mship.h:
+
+../melee/mshot.h:
+
+../melee/mgame.h:
+
+../melee/manim.h:
+
+../id.h:
+
+../util/helper.h:
+
+../other/gameconf.h:
+
+../melee/mview.h:
+
+../frame.h:
+
+../util/aastr.h:
